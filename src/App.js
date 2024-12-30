@@ -9,7 +9,7 @@ import FeaturesSection from './pages/FeaturesSection';
 import HowItWorksSection from './pages/HowItWorksSection';
 import CallToAction from './pages/CallToAction';
 import Footer from './pages/Footer';
-import ContactPage from './pages/ContactPage'; // Import ContactPage here
+import StatsPage from './pages/StatsPage';  // Import the new StatsPage component
 import theme from './theme';
 
 function App() {
@@ -35,7 +35,7 @@ function App() {
                             </motion.div>
                         }
                     />
-                    <Route path="/contact" element={<ContactPage />} /> {/* Add route for ContactPage */}
+                    <Route path="/stats" element={<StatsPage />} /> {/* Add the new stats route */}
                 </Routes>
             </Router>
         </ThemeProvider>
