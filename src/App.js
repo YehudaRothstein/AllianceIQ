@@ -11,6 +11,7 @@ import CallToAction from './pages/CallToAction';
 import Footer from './pages/Footer';
 import StatsPage from './pages/StatsPage';  // Import the new StatsPage component
 import theme from './theme';
+import ContactPage from './pages/ContactPage';  // Import the new ContactPage component
 
 function App() {
     return (
@@ -36,6 +37,7 @@ function App() {
                         }
                     />
                     <Route path="/stats" element={<StatsPage />} /> {/* Add the new stats route */}
+                    <Route path="/contact" element={<ContactPage />} /> {/* Add the new stats route */}
                 </Routes>
             </Router>
         </ThemeProvider>

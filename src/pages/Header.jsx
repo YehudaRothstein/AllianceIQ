@@ -13,8 +13,8 @@ function Header() {
                 <Button color="inherit" component={Link} to="/">
                     Home
                 </Button>
-                <Button color="inherit" component={Link} to="/contact"> {/* Contact link */}
-                    Contact
+                <Button color="inherit" component={Link} to="/stats"> {/* Contact link */}
+                    Statistics
                 </Button>
             </Toolbar>
         </AppBar>
